@@ -36,9 +36,13 @@ function style_admin_bar(){ ?>
 #wp-admin-bar-wp-logo > .ab-item .ab-icon {
     background-position: 0 -104px;
 }
-
-
 	</style>
 <?php
 }
 add_action('wp_head', 'style_admin_bar');
+
+function custom_login_message() {
+$message = "<h3>Demo Account</h3> Username: <strong>tester</strong><br />Password: <strong>testerpassword</strong><br /><br />";
+return $message;
+}
+add_filter('login_message', 'custom_login_message');

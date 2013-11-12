@@ -1,5 +1,10 @@
 /* App Styles */
 
+body {
+  font-size:14px;
+  line-height:1.2em;
+}
+
 /* Global Form Stlyes */
 
 input, textarea {
@@ -35,4 +40,9 @@ input:focus, textarea {
 
 #bbpress-forums ul.bbp-lead-topic, #bbpress-forums ul.bbp-topics, #bbpress-forums ul.bbp-forums, #bbpress-forums ul.bbp-replies, #bbpress-forums ul.bbp-search-results {
     font-size: 16px;
+}
+
+.uevypress-home {
+  font-size:16px;
+  line-height:1.2em;
 }
